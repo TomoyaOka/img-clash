@@ -23,7 +23,7 @@ class PaticleImg {
   }
 
   async addObjects() {
-    this.texture = await PIXI.Assets.load("../public/img.png"); //画像読み込み
+    this.texture = await PIXI.Assets.load("./img.png"); //画像読み込み
 
     console.log(this.texture);
 
